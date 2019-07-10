@@ -1,41 +1,41 @@
 BUG 001 - Valor do Total Bruto das importações geral igual a zero
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Na tela "Lista de importações da sua loja" o valor "TOTAL BRUTO DAS IMPORTAÇÕES" deveria ser so resultado da soma do total
   bruto de todas as importações, nesse caso o valor total bruto da importação nº5, porém o valor exibido na tela é R$ 0,00.
 
 BUG 002 - Dados exibidos nas linhas da coluna "Comprado", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Os dados apresentados nas linhas da coluna "Comprado" são nomes próprios, quando os valores exibidos deveriam ser nomes de 
   produtos.
   
 BUG 003 - Valores exibidos nas linhas da coluna "Qtde", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Os valores apresentados nas linhas da coluna "Qtde" estão no formado de moeda, quando os valores exibidos deveriam ser as
   quantidades.
   
 BUG 004 - Valores exibidos nas linhas da coluna "Total", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Os valores apresentados nas linhas da coluna "Total" são números inteiros, quando os valores exibidos deveriam estar no 
   formato de moeda.
   
 BUG 005 - Valor total dos itens vendidos esta diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: O valor total dos itens vendidos não corresponde a multiplicação do preço pela quantidade.
   
 BUG 006 - Dados exibidos nas linhas da coluna "Nome vendedor", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Os dados apresentados nas linhas da coluna "Nome vendedor" são endereços, quando os valores exibidos deveriam ser nomes 
   próprios.
   
 BUG 007 - Dados exibidos nas linhas da coluna "Endereços vendedor", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
-  Dados do Navegador: Chrome Versão 72.0.3626.109
+  Ambiente: Chrome Versão 72.0.3626.109
   Descrição: Os dados apresentados nas linhas da coluna "Endereços vendedor" são nomes de produtos, quando os valores exibidos deveriam
   ser endereços.
 
