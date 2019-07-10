@@ -1,0 +1,9 @@
+ID do caso de teste: 1
+Objetivo do casos de teste: Verificar o valor do TOTAL BRUTO DA IMPORTAÇÃO nº5
+Descrição do casos de teste: Alterar a quantidade de um dos itens comprados
+Resultado esperado: O valor do TOTAL BRUTO DA IMPORTAÇÃO nº5 será alterado
+
+ID do caso de teste: 1
+Objetivo do casos de teste: Verificar a integração entre a Lista de importações da sua loja e o cadastro de vendedores
+Descrição do casos de teste: Clicar no nome do vendedor
+Resultado esperado: A tela com os dados do vendedor deve ser exibida
