@@ -40,6 +40,11 @@ BUG 007 - Dados exibidos nas linhas da coluna "Endereços vendedor", estão dife
   Descrição: Os dados apresentados nas linhas da coluna "Endereços vendedor" são nomes de produtos, quando os valores exibidos deveriam
   ser endereços.
 
+bug 08
+coluna comprador com erro de grafia
+esta escrito "comprado"
+
+
 
  
   
