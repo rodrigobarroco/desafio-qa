@@ -1,8 +1,9 @@
-BUG 001 - Valor do Total Bruto das importações geral igual a zero
+BUG 001 - Total Bruto das importações zerado
   Funcionalidade: Lista de importação da sua loja
   Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Na tela "Lista de importações da sua loja" o valor "TOTAL BRUTO DAS IMPORTAÇÕES" deveria ser so resultado da soma do total
-  bruto de todas as importações, nesse caso o valor total bruto da importação nº5, porém o valor exibido na tela é R$ 0,00.
+  Versao: 1.0.0
+  Descrição: Na tela "Lista de importações da sua loja" o valor "TOTAL BRUTO DAS IMPORTAÇÕES" deveria ser ser o resultado da soma do total
+  bruto de todas as importações, não podendo ser menos que o total bruto da importação n 5, porém o valor exibido na tela é R$ 0,00.
 
 BUG 002 - Dados exibidos nas linhas da coluna "Comprado", estão diferente do esperado
   Funcionalidade: Lista de importação da sua loja
