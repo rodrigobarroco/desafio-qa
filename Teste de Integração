@@ -1,9 +1,31 @@
-ID do caso de teste: 1
-Objetivo do casos de teste: Verificar o valor do TOTAL BRUTO DA IMPORTAÇÃO nº5
-Descrição do casos de teste: Alterar a quantidade de um dos itens comprados
-Resultado esperado: O valor do TOTAL BRUTO DA IMPORTAÇÃO nº5 será alterado
+#language: pt
+Funcionalidade: Lista de importações da sua loja
 
-ID do caso de teste: 1
-Objetivo do casos de teste: Verificar a integração entre a Lista de importações da sua loja e o cadastro de vendedores
-Descrição do casos de teste: Clicar no nome do vendedor
-Resultado esperado: A tela com os dados do vendedor deve ser exibida
+Cenário 01: Validar cadastro de novo item
+    Dado que eu informe o nome do comprador
+    E eu informe a descrição
+    E eu informe o preço
+    E eu informe a quantidade
+    E eu informe o nome do vendedor
+    E eu informe o endereço do vendedor
+    Quando eu acesso a lista de importações da minha loja
+    Então eu vejo os dados da importação
+    E eu vejo o valor total do item
+    
+Cenário 02: Validar total bruto da importação n 5
+    Dado que eu cadastre um novo item na importação n 5
+    Quando eu acesso a lista de importações da sua loja
+    Então eu vejo os dados dos itens sob a importação n 5
+    E eu vejo o total bruto da importação n 5 atualizado
+    
+ Cenário 03: Validar total bruto das importações
+    Dado que eu cadastre itens em uma nova importação
+    Quando eu acesso a lista de importações da sua loja
+    Então eu vejo o total bruto de cada importação cadastrada
+    E eu vejo o total bruto das importações como a soma do total de todas as importações
+    
+ Cebário 04: Validar alteração de endereço do vendedor
+    Dado que eu altere o endereço de um vendedor
+    Quando eu acesso a lsita de importações da sua loja
+    Então eu vejo o endereço novo para o vendedor
+    
