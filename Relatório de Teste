@@ -1,50 +1,46 @@
-BUG 001 - Total Bruto das importações zerado
+BUG 01 - Total Bruto das importações zerado
   Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
+  Ambiente: QA_01
+  URL: https://desafio-qa.herokuapp.com/
+  Navegador: Chrome Versão 72.0.3626.109
   Versao: 1.0.0
-  Descrição: Na tela "Lista de importações da sua loja" o valor "TOTAL BRUTO DAS IMPORTAÇÕES" deveria ser ser o resultado da soma do total
-  bruto de todas as importações, não podendo ser menos que o total bruto da importação n 5, porém o valor exibido na tela é R$ 0,00.
+  Descrição: Na tela "Lista de importações da sua loja" o valor "TOTAL BRUTO DAS IMPORTAÇÕES" deveria ser o 
+  resultado da soma do total   bruto de todas as importações, não podendo ser menor que o total bruto da 
+  importação n 5, porém o valor exibido na tela é R$ 0,00.
 
-BUG 002 - Dados exibidos nas linhas da coluna "Comprado", estão diferente do esperado
+BUG 02 - Erro ortografico no título da coluna Comprador
   Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Os dados apresentados nas linhas da coluna "Comprado" são nomes próprios, quando os valores exibidos deveriam ser nomes de 
-  produtos.
-  
-BUG 003 - Valores exibidos nas linhas da coluna "Qtde", estão diferente do esperado
-  Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Os valores apresentados nas linhas da coluna "Qtde" estão no formado de moeda, quando os valores exibidos deveriam ser as
-  quantidades.
-  
-BUG 004 - Valores exibidos nas linhas da coluna "Total", estão diferente do esperado
-  Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Os valores apresentados nas linhas da coluna "Total" são números inteiros, quando os valores exibidos deveriam estar no 
-  formato de moeda.
-  
-BUG 005 - Valor total dos itens vendidos esta diferente do esperado
-  Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: O valor total dos itens vendidos não corresponde a multiplicação do preço pela quantidade.
-  
-BUG 006 - Dados exibidos nas linhas da coluna "Nome vendedor", estão diferente do esperado
-  Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Os dados apresentados nas linhas da coluna "Nome vendedor" são endereços, quando os valores exibidos deveriam ser nomes 
-  próprios.
-  
-BUG 007 - Dados exibidos nas linhas da coluna "Endereços vendedor", estão diferente do esperado
-  Funcionalidade: Lista de importação da sua loja
-  Ambiente: Chrome Versão 72.0.3626.109
-  Descrição: Os dados apresentados nas linhas da coluna "Endereços vendedor" são nomes de produtos, quando os valores exibidos deveriam
-  ser endereços.
+  Ambiente: QA_01
+  URL: https://desafio-qa.herokuapp.com/
+  Navegador: Chrome Versão 72.0.3626.109
+  Versao: 1.0.0
+  Descrição: O titulo da coluna comprador possui erro de ortografia, está escrito "comprado" ao invés de "comprador"
 
-bug 08
-coluna comprador com erro de grafia
-esta escrito "comprado"
+BUG 03 - Campo Qtde. com formatação de moeda 
+  Funcionalidade: Lista de importação da sua loja
+  Ambiente: QA_01
+  URL: https://desafio-qa.herokuapp.com/
+  Navegador: Chrome Versão 72.0.3626.109
+  Versao: 1.0.0
+  Descrição: O campo de quantidade (Qtde.) esta com formatação de moeda ao invés de número
+
+BUG 04 - Valores de Preço, Qtde. e Total invertidos 
+  Funcionalidade: Lista de importação da sua loja
+  Ambiente: QA_01
+  URL: https://desafio-qa.herokuapp.com/
+  Navegador: Chrome Versão 72.0.3626.109
+  Versao: 1.0.0
+  Descrição: Os valores das colunas Preço, Qtde. e Total não correspondem aos dados corretos relativos 
+  a descrição dos itens.
+  
+BUG 05 - Valores de nome e endereço do vendedor invertidos 
+  Funcionalidade: Lista de importação da sua loja
+  Ambiente: QA_01
+  URL: https://desafio-qa.herokuapp.com/
+  Navegador: Chrome Versão 72.0.3626.109
+  Versao: 1.0.0
+  Descrição: Os valores presentes na coluna "Nome vendedor" para cada linha são os endereços dos vendedores, 
+  e os valores presentes na coluna "Endereços vendedor" para cada linha são os nomes dos vendedores
 
 
-
- 
   
